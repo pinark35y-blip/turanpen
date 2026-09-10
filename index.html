@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO & Google Arama Motoru Ayarları -->
-    <title>Turan Pen - PVC Doğrama, Alüminyum, Cam Balkon & Sineklik | Bornova İzmir</title>
-    <meta name="description" content="Turan Pen ile İzmir Bornova'da kaliteli PVC pencere, kapı sistemleri, alüminyum doğrama, cam balkon, giyotin, otomatik kepenk ve sineklik çözümleri.">
-    <meta name="keywords" content="turan pen, turanpenn, pvc pencere bornova, alüminyum doğrama izmir, cam balkon bornova, giyotin cam, otomatik kepenk, sürgülü sineklik">
+    <title>Turan Pen - PVC Doğrama, Alüminyum, Cam Balkon, Kepenk & Sineklik | Bornova İzmir</title>
+    <meta name="description" content="Turan Pen ile İzmir Bornova'da kaliteli PVC pencere, kapı sistemleri, alüminyum doğrama, cam balkon, giyotin, otomatik kepenk ve sürgülü/açılır sineklik çözümleri.">
+    <meta name="keywords" content="turan pen, turanpenn, pvc pencere bornova, alüminyum doğrama izmir, cam balkon bornova, giyotin cam, otomatik kepenk, sürgülü sineklik, açılır sineklik">
     
     <style>
         * {
@@ -35,7 +35,7 @@
             margin: 0 auto;
         }
         .container {
-            max-width: 800px;
+            max-width: 950px;
             margin: 20px auto;
             padding: 0 15px;
         }
@@ -61,8 +61,41 @@
             padding-left: 20px;
         }
         li {
-            margin-bottom: 10px;
-            font-size: 1.05rem;
+            margin-bottom: 8px;
+        }
+        
+        /* Görsel Galerisi Grid Stilleri */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .gallery-item {
+            position: relative;
+            border: 1px solid #d4af37;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #000;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.04);
+        }
+        .gallery-title {
+            padding: 10px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.9);
+            color: #f3e5ab;
+            font-size: 0.9rem;
+            font-weight: bold;
+            border-top: 1px solid #333;
         }
 
         .btn-group {
@@ -122,20 +155,77 @@
     <div class="card">
         <h2>Hizmetlerimiz</h2>
         <ul>
-            <li><strong>PVC Kapı & Pencere:</strong> Imalat, montaj, bakım ve tamir hizmetleri.</li>
-            <li><strong>Alüminyum Doğrama:</strong> Vitrin, doğrama ve profil sistemleri.</li>
-            <li><strong>Cam Balkon:</strong> Katlanır, sürme cam balkon ve kış bahçesi çözümleri.</li>
-            <li><strong>Giyotin Cam:</strong> Motorlu ve kumandalı giyotin cam sistemleri.</li>
-            <li><strong>Otomatik Kepenk & Panjur:</strong> Garaj, iş yeri ve konut tipi otomatik sistemler.</li>
-            <li><strong>Sineklik Sistemleri:</strong> Sürgülü (pileli/akordeon) ve açılır menteşeli sineklikler.</li>
+            <li>PVC Kapı ve Pencere Sistemleri Montaj & Tamir</li>
+            <li>Alüminyum Doğrama & Vitrin Sistemleri</li>
+            <li>Cam Balkon ve Kış Bahçesi Uygulamaları</li>
+            <li>Motorlu & Manuel Giyotin Cam Sistemleri</li>
+            <li>Otomatik Kepenk & Panjur Sistemleri</li>
+            <li>Sürgülü (Pileli / Akordeon) Sineklik Sistemleri</li>
+            <li>Açılır Menteşeli Sineklik Sistemleri</li>
         </ul>
+    </div>
+
+    <!-- Örnek Çalışmalarımız -->
+    <div class="card">
+        <h2>Örnek Çalışmalarımız</h2>
+        <p>Hizmet alanlarımıza ait uygulama görsellerimiz:</p>
+        
+        <div class="gallery">
+            <!-- PVC Pencere -->
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=600" alt="PVC Pencere Sistemleri">
+                <div class="gallery-title">PVC Pencere Sistemleri</div>
+            </div>
+
+            <!-- PVC Kapı -->
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=600" alt="PVC Kapı Sistemleri">
+                <div class="gallery-title">PVC Kapı Sistemleri</div>
+            </div>
+
+            <!-- Cam Balkon -->
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cam Balkon Sistemleri">
+                <div class="gallery-title">Cam Balkon Sistemleri</div>
+            </div>
+
+            <!-- Alüminyum Doğrama -->
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Alüminyum Doğrama">
+                <div class="gallery-title">Alüminyum Doğrama & Profil</div>
+            </div>
+
+            <!-- Giyotin Cam -->
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Motorlu Giyotin Cam">
+                <div class="gallery-title">Motorlu Giyotin Cam</div>
+            </div>
+
+            <!-- Otomatik Kepenk -->
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/101808/pexels-photo-101808.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Otomatik Kepenk & Panjur">
+                <div class="gallery-title">Otomatik Kepenk & Panjur</div>
+            </div>
+
+            <!-- Sürgülü Sineklik -->
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/1366872/pexels-photo-1366872.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sürgülü Pileli Sineklik">
+                <div class="gallery-title">Sürgülü (Pileli) Sineklik</div>
+            </div>
+
+            <!-- Açılır Sineklik -->
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/279607/pexels-photo-279607.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Açılır Menteşeli Sineklik">
+                <div class="gallery-title">Açılır Menteşeli Sineklik</div>
+            </div>
+        </div>
     </div>
 
     <!-- İletişim Butonları -->
     <div class="card">
-        <h2>İletişim & Teklif</h2>
+        <h2>İletişim</h2>
         <p><strong>Telefon:</strong> 0545 806 91 49</p>
-        <p style="margin-top: 5px;">Ücretsiz keşif ve detaylı fiyat teklifi almak için doğrudan ulaşabilirsiniz:</p>
+        <p style="margin-top: 5px;">Ücretsiz keşif ve fiyat teklifleri için bizimle hemen iletişime geçebilirsiniz:</p>
         
         <div class="btn-group">
             <a href="tel:05458069149" class="btn btn-call">📞 Bizi Arayın</a>
