@@ -6,8 +6,8 @@
     
     <!-- SEO & Google Arama Motoru Ayarları -->
     <title>Turan Pen - PVC Doğrama, Alüminyum, Cam Balkon, Kepenk & Sineklik | Bornova İzmir</title>
-    <meta name="description" content="Turan Pen ile İzmir Bornova'da kaliteli PVC pencere, kapı sistemleri, alüminyum doğrama, cam balkon, giyotin, otomatik kepenk ve sürgülü/açılır sineklik çözümleri.">
-    <meta name="keywords" content="turan pen, turanpenn, pvc pencere bornova, alüminyum doğrama izmir, cam balkon bornova, giyotin cam, otomatik kepenk, sürgülü sineklik, açılır sineklik">
+    <meta name="description" content="Turan Pen ile İzmir Bornova'da kaliteli PVC pencere, kapı sistemleri, alüminyum doğrama, cam balkon, giyotin, otomatik kepenk, duşakabin ve sineklik çözümleri.">
+    <meta name="keywords" content="turan pen, turanpenn, pvc pencere bornova, alüminyum doğrama izmir, cam balkon bornova, giyotin cam, otomatik kepenk, plise sineklik, duşakabin bornova">
     
     <style>
         * {
@@ -35,7 +35,7 @@
             margin: 0 auto;
         }
         .container {
-            max-width: 800px;
+            max-width: 950px;
             margin: 20px auto;
             padding: 0 15px;
         }
@@ -43,7 +43,7 @@
             background: #1e1e1e;
             border: 1px solid #333333;
             border-radius: 10px;
-            padding: 22px;
+            padding: 20px;
             margin-bottom: 20px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.5);
         }
@@ -57,21 +57,45 @@
             color: #e0e0e0;
         }
         ul {
-            list-style-type: none;
-            padding-left: 0;
+            list-style-type: square;
+            padding-left: 20px;
         }
         li {
-            margin-bottom: 12px;
-            font-size: 1.05rem;
-            padding-left: 25px;
-            position: relative;
+            margin-bottom: 8px;
         }
-        li::before {
-            content: "✓";
-            color: #d4af37;
+        
+        /* Görsel Galerisi Grid Stilleri */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .gallery-item {
+            position: relative;
+            border: 1px solid #d4af37;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #000;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.04);
+        }
+        .gallery-title {
+            padding: 10px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.9);
+            color: #f3e5ab;
+            font-size: 0.9rem;
             font-weight: bold;
-            position: absolute;
-            left: 0;
+            border-top: 1px solid #333;
         }
 
         .btn-group {
@@ -124,26 +148,82 @@
     <!-- Hakkımızda -->
     <div class="card">
         <h2>Hakkımızda</h2>
-        <p>Turan Pen olarak İzmir Bornova ve çevresinde kaliteli malzeme, titiz işçilik ve uygun fiyat anlayışıyla PVC kapı, pencere, alüminyum doğrama, giyotin sistemleri, otomatik kepenk, cam balkon ve her çeşit sineklik çözümleri sunuyoruz.</p>
+        <p>Turan Pen olarak İzmir Bornova ve çevresinde kaliteli malzeme, titiz işçilik ve uygun fiyat anlayışıyla PVC kapı, pencere, alüminyum doğrama, giyotin sistemleri, otomatik kepenk, cam balkon, duşakabin ve her çeşit sineklik çözümleri sunuyoruz.</p>
     </div>
 
     <!-- Hizmetlerimiz -->
     <div class="card">
         <h2>Hizmetlerimiz</h2>
         <ul>
-            <li><strong>PVC Kapı & Pencere Sistemleri:</strong> İmalat, montaj, bakım ve tamir hizmetleri.</li>
-            <li><strong>Alüminyum Doğrama & Profil:</strong> Vitrin, kapı, pencere ve özel cephe uygulamaları.</li>
-            <li><strong>Cam Balkon Sistemleri:</strong> Katlanır ve sürme cam balkon uygulamaları.</li>
-            <li><strong>Motorlu Giyotin Cam:</strong> Kumandalı, hareketli cam küpeşte ve giyotin sistemleri.</li>
-            <li><strong>Otomatik Kepenk & Panjur:</strong> İş yeri, garaj ve ev tipi motorlu kepenk çözümleri.</li>
-            <li><strong>Sürgülü (Pileli) Sineklik:</strong> Akordeon/plise model kapı ve pencere sineklikleri.</li>
-            <li><strong>Açılır Menteşeli Sineklik:</strong> Menteşeli, pratik kullanım sağlayan sineklik sistemleri.</li>
+            <li>PVC Kapı ve Pencere Sistemleri Montaj & Tamir</li>
+            <li>Alüminyum Doğrama & Sürme Sistemler</li>
+            <li>Cam Balkon ve Kış Bahçesi Uygulamaları</li>
+            <li>Motorlu Giyotin Cam Sistemleri</li>
+            <li>Otomatik Kepenk & Panjur Sistemleri</li>
+            <li>Plise (Pileli) ve Sürme Duble Sineklikler</li>
+            <li>Karolajlı ve Oval Duşakabin Sistemleri</li>
         </ul>
     </div>
 
-    <!-- İletişim -->
+    <!-- Örnek Çalışmalarımız -->
     <div class="card">
-        <h2>İletişim & Fiyat Teklifi</h2>
+        <h2>Örnek Çalışmalarımız</h2>
+        <p>Projelerimizden ve imalatlarımızdan görseller:</p>
+        
+        <div class="gallery">
+            <!-- Kış Bahçesi -->
+            <div class="gallery-item">
+                <img src="kis_bahcesi.jpg" alt="Kış Bahçesi Sistemleri">
+                <div class="gallery-title">Kış Bahçesi Sistemleri</div>
+            </div>
+
+            <!-- Garaj & Otomatik Kepenk -->
+            <div class="gallery-item">
+                <img src="garaj_kepenk.jpg" alt="77'lik Garaj & Otomatik Kepenk">
+                <div class="gallery-title">Garaj & Otomatik Kepenk</div>
+            </div>
+
+            <!-- Villa Panjur -->
+            <div class="gallery-item">
+                <img src="villa_panjur.jpg" alt="Villa Motorlu Panjur Sistemleri">
+                <div class="gallery-title">Villa Motorlu Panjur</div>
+            </div>
+
+            <!-- Sürme Cam -->
+            <div class="gallery-item">
+                <img src="surme_cam.jpg" alt="Alüminyum & PVC Sürme Cam Sistemleri">
+                <div class="gallery-title">Alüminyum & PVC Sürme Cam</div>
+            </div>
+
+            <!-- Sürme Duble Sineklik -->
+            <div class="gallery-item">
+                <img src="surme_sineklik.jpg" alt="Sürme Duble (Çift) Sineklik">
+                <div class="gallery-title">Sürme Duble Sineklik</div>
+            </div>
+
+            <!-- Plise Sineklik -->
+            <div class="gallery-item">
+                <img src="plise_sineklik.jpg" alt="Plise (Pileli) Sineklik Sistemleri">
+                <div class="gallery-title">Plise (Pileli) Sineklik</div>
+            </div>
+
+            <!-- Karolajlı Duşakabin -->
+            <div class="gallery-item">
+                <img src="karolajli_dusakabin.jpg" alt="Siyah Karolajlı Duşakabin">
+                <div class="gallery-title">Siyah Karolajlı Duşakabin</div>
+            </div>
+
+            <!-- Oval Duşakabin -->
+            <div class="gallery-item">
+                <img src="oval_dusakabin.jpg" alt="Oval & Modern Duşakabin Sistemleri">
+                <div class="gallery-title">Oval Duşakabin Sistemleri</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- İletişim Butonları -->
+    <div class="card">
+        <h2>İletişim</h2>
         <p><strong>Telefon:</strong> 0545 806 91 49</p>
         <p style="margin-top: 5px;">Ücretsiz keşif ve detaylı fiyat teklifleri için bizimle hemen iletişime geçebilirsiniz:</p>
         
