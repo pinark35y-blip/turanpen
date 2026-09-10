@@ -35,7 +35,7 @@
             margin: 0 auto;
         }
         .container {
-            max-width: 950px;
+            max-width: 800px;
             margin: 20px auto;
             padding: 0 15px;
         }
@@ -43,7 +43,7 @@
             background: #1e1e1e;
             border: 1px solid #333333;
             border-radius: 10px;
-            padding: 20px;
+            padding: 22px;
             margin-bottom: 20px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.5);
         }
@@ -57,45 +57,21 @@
             color: #e0e0e0;
         }
         ul {
-            list-style-type: square;
-            padding-left: 20px;
+            list-style-type: none;
+            padding-left: 0;
         }
         li {
-            margin-bottom: 8px;
-        }
-        
-        /* Görsel Galerisi Grid Stilleri */
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 15px;
-            margin-top: 15px;
-        }
-        .gallery-item {
+            margin-bottom: 12px;
+            font-size: 1.05rem;
+            padding-left: 25px;
             position: relative;
-            border: 1px solid #d4af37;
-            border-radius: 8px;
-            overflow: hidden;
-            background: #000;
         }
-        .gallery-item img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            display: block;
-            transition: transform 0.3s ease;
-        }
-        .gallery-item img:hover {
-            transform: scale(1.04);
-        }
-        .gallery-title {
-            padding: 10px;
-            text-align: center;
-            background: rgba(0, 0, 0, 0.9);
-            color: #f3e5ab;
-            font-size: 0.9rem;
+        li::before {
+            content: "✓";
+            color: #d4af37;
             font-weight: bold;
-            border-top: 1px solid #333;
+            position: absolute;
+            left: 0;
         }
 
         .btn-group {
@@ -155,77 +131,21 @@
     <div class="card">
         <h2>Hizmetlerimiz</h2>
         <ul>
-            <li>PVC Kapı ve Pencere Sistemleri Montaj & Tamir</li>
-            <li>Alüminyum Doğrama & Vitrin Sistemleri</li>
-            <li>Cam Balkon ve Kış Bahçesi Uygulamaları</li>
-            <li>Motorlu & Manuel Giyotin Cam Sistemleri</li>
-            <li>Otomatik Kepenk & Panjur Sistemleri</li>
-            <li>Sürgülü (Pileli / Akordeon) Sineklik Sistemleri</li>
-            <li>Açılır Menteşeli Sineklik Sistemleri</li>
+            <li><strong>PVC Kapı & Pencere Sistemleri:</strong> İmalat, montaj, bakım ve tamir hizmetleri.</li>
+            <li><strong>Alüminyum Doğrama & Profil:</strong> Vitrin, kapı, pencere ve özel cephe uygulamaları.</li>
+            <li><strong>Cam Balkon Sistemleri:</strong> Katlanır ve sürme cam balkon uygulamaları.</li>
+            <li><strong>Motorlu Giyotin Cam:</strong> Kumandalı, hareketli cam küpeşte ve giyotin sistemleri.</li>
+            <li><strong>Otomatik Kepenk & Panjur:</strong> İş yeri, garaj ve ev tipi motorlu kepenk çözümleri.</li>
+            <li><strong>Sürgülü (Pileli) Sineklik:</strong> Akordeon/plise model kapı ve pencere sineklikleri.</li>
+            <li><strong>Açılır Menteşeli Sineklik:</strong> Menteşeli, pratik kullanım sağlayan sineklik sistemleri.</li>
         </ul>
     </div>
 
-    <!-- Örnek Çalışmalarımız -->
+    <!-- İletişim -->
     <div class="card">
-        <h2>Örnek Çalışmalarımız</h2>
-        <p>İmalat ve montajını gerçekleştirdiğimiz alanlara ait uygulama görsellerimiz:</p>
-        
-        <div class="gallery">
-            <!-- PVC Pencere -->
-            <div class="gallery-item">
-                <img src="https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=600" alt="PVC Pencere Sistemleri">
-                <div class="gallery-title">PVC Pencere Sistemleri</div>
-            </div>
-
-            <!-- PVC Kapı -->
-            <div class="gallery-item">
-                <img src="https://images.pexels.com/photos/279607/pexels-photo-279607.jpeg?auto=compress&cs=tinysrgb&w=600" alt="PVC Kapı Sistemleri">
-                <div class="gallery-title">PVC Kapı Sistemleri</div>
-            </div>
-
-            <!-- Cam Balkon -->
-            <div class="gallery-item">
-                <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cam Balkon Sistemleri">
-                <div class="gallery-title">Cam Balkon Sistemleri</div>
-            </div>
-
-            <!-- Alüminyum Doğrama -->
-            <div class="gallery-item">
-                <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Alüminyum Doğrama">
-                <div class="gallery-title">Alüminyum Doğrama & Profil</div>
-            </div>
-
-            <!-- Giyotin Cam -->
-            <div class="gallery-item">
-                <img src="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Motorlu Giyotin Cam">
-                <div class="gallery-title">Motorlu Giyotin Cam</div>
-            </div>
-
-            <!-- Otomatik Kepenk -->
-            <div class="gallery-item">
-                <img src="https://images.pexels.com/photos/101808/pexels-photo-101808.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Otomatik Kepenk & Panjur">
-                <div class="gallery-title">Otomatik Kepenk & Panjur</div>
-            </div>
-
-            <!-- Sürgülü Sineklik -->
-            <div class="gallery-item">
-                <img src="https://images.pexels.com/photos/534151/pexels-photo-534151.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sürgülü Pileli Sineklik">
-                <div class="gallery-title">Sürgülü (Pileli) Sineklik</div>
-            </div>
-
-            <!-- Açılır Sineklik -->
-            <div class="gallery-item">
-                <img src="https://images.pexels.com/photos/1366872/pexels-photo-1366872.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Açılır Menteşeli Sineklik">
-                <div class="gallery-title">Açılır Menteşeli Sineklik</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- İletişim Butonları -->
-    <div class="card">
-        <h2>İletişim</h2>
+        <h2>İletişim & Fiyat Teklifi</h2>
         <p><strong>Telefon:</strong> 0545 806 91 49</p>
-        <p style="margin-top: 5px;">Ücretsiz keşif ve fiyat teklifleri için bizimle hemen iletişime geçebilirsiniz:</p>
+        <p style="margin-top: 5px;">Ücretsiz keşif ve detaylı fiyat teklifleri için bizimle hemen iletişime geçebilirsiniz:</p>
         
         <div class="btn-group">
             <a href="tel:05458069149" class="btn btn-call">📞 Bizi Arayın</a>
