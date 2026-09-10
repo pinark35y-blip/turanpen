@@ -3,31 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Google Arama Motoru Ayarları -->
     <title>Turan Pen - PVC Doğrama, Alüminyum, Cam Balkon, Kepenk & Sineklik | Bornova İzmir</title>
     <meta name="description" content="Turan Pen ile İzmir Bornova'da kaliteli PVC pencere, kapı sistemleri, alüminyum doğrama, cam balkon, giyotin, otomatik kepenk, duşakabin ve sineklik çözümleri.">
+    <meta name="keywords" content="turan pen, turanpenn, pvc pencere bornova, alüminyum doğrama izmir, cam balkon bornova, giyotin cam, otomatik kepenk, plise sineklik, duşakabin bornova">
+    
     <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-        body { line-height: 1.6; color: #d4af37; background-color: #121212; padding-bottom: 40px; }
-        header { background: #000000; border-bottom: 2px solid #d4af37; padding: 2rem 1rem; text-align: center; }
-        header img { max-width: 280px; height: auto; display: block; margin: 0 auto; }
-        .container { max-width: 950px; margin: 20px auto; padding: 0 15px; }
-        .card { background: #1e1e1e; border: 1px solid #333333; border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
-        h2 { color: #f3e5ab; margin-bottom: 15px; border-bottom: 1px solid #d4af37; padding-bottom: 8px; }
-        p, li { color: #e0e0e0; }
-        ul { list-style-type: square; padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 15px; margin-top: 15px; }
-        .gallery-item { position: relative; border: 1px solid #d4af37; border-radius: 8px; overflow: hidden; background: #000; }
-        .gallery-item img { width: 100%; height: 220px; object-fit: cover; display: block; transition: transform 0.3s ease; }
-        .gallery-item img:hover { transform: scale(1.04); }
-        .gallery-title { padding: 10px; text-align: center; background: rgba(0, 0, 0, 0.9); color: #f3e5ab; font-size: 0.9rem; font-weight: bold; border-top: 1px solid #333; }
-        .btn-group { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 15px; }
-        .btn { display: inline-block; padding: 12px 20px; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: bold; text-align: center; flex: 1; min-width: 200px; }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            color: #d4af37;
+            background-color: #121212;
+            padding-bottom: 40px;
+        }
+        header {
+            background: #000000;
+            border-bottom: 2px solid #d4af37;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header img {
+            max-width: 280px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .container {
+            max-width: 950px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .card {
+            background: #1e1e1e;
+            border: 1px solid #333333;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        }
+        h2 {
+            color: #f3e5ab;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #d4af37;
+            padding-bottom: 8px;
+        }
+        p, li {
+            color: #e0e0e0;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        
+        /* Görsel Galerisi Grid Stilleri */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .gallery-item {
+            position: relative;
+            border: 1px solid #d4af37;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #000;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.04);
+        }
+        .gallery-title {
+            padding: 10px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.9);
+            color: #f3e5ab;
+            font-size: 0.9rem;
+            font-weight: bold;
+            border-top: 1px solid #333;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            text-align: center;
+            flex: 1;
+            min-width: 200px;
+            transition: opacity 0.2s ease;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
         .btn-call { background-color: #d4af37; color: #000000; }
         .btn-whatsapp { background-color: #25d366; color: #ffffff; }
         .btn-instagram { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color: #ffffff; }
-        iframe { width: 100%; height: 320px; border: 1px solid #d4af37; border-radius: 8px; margin-top: 10px; }
-        footer { text-align: center; margin-top: 30px; font-size: 0.9rem; color: #888888; }
+        iframe {
+            width: 100%;
+            height: 320px;
+            border: 1px solid #d4af37;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #888888;
+        }
     </style>
 </head>
 <body>
@@ -38,11 +145,13 @@
 
 <div class="container">
 
+    <!-- Hakkımızda -->
     <div class="card">
         <h2>Hakkımızda</h2>
         <p>Turan Pen olarak İzmir Bornova ve çevresinde kaliteli malzeme, titiz işçilik ve uygun fiyat anlayışıyla PVC kapı, pencere, alüminyum doğrama, giyotin sistemleri, otomatik kepenk, cam balkon, duşakabin ve her çeşit sineklik çözümleri sunuyoruz.</p>
     </div>
 
+    <!-- Hizmetlerimiz -->
     <div class="card">
         <h2>Hizmetlerimiz</h2>
         <ul>
@@ -52,53 +161,79 @@
             <li>Motorlu Giyotin Cam Sistemleri</li>
             <li>Otomatik Kepenk & Panjur Sistemleri</li>
             <li>Plise (Pileli) ve Sürgülü Sineklik Sistemleri</li>
-            <li>Siyah Karolajlı ve Oval Duşakabin Sistemleri</li>
+            <li>Karolajlı ve Oval Duşakabin Sistemleri</li>
         </ul>
     </div>
 
+    <!-- Örnek Çalışmalarımız -->
     <div class="card">
         <h2>Örnek Çalışmalarımız</h2>
-        <p>Uygulama ve imalat örneklerimizden kareler:</p>
+        <p>Projelerimizden ve imalatlarımızdan görseller:</p>
         
         <div class="gallery">
             <!-- Cam Balkon -->
             <div class="gallery-item">
-                <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cam Balkon Sistemleri">
+                <img src="Katlanır-balkon.png" alt="Cam Balkon Sistemleri">
                 <div class="gallery-title">Cam Balkon Sistemleri</div>
+            </div>
+
+            <!-- Kış Bahçesi -->
+            <div class="gallery-item">
+                <img src="kis-bahcesi.jpg" alt="Kış Bahçesi Sistemleri">
+                <div class="gallery-title">Kış Bahçesi Sistemleri</div>
             </div>
 
             <!-- Otomatik Kepenk -->
             <div class="gallery-item">
-                <img src="https://images.pexels.com/photos/101808/pexels-photo-101808.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Otomatik Garaj Kepenk Sistemleri">
+                <img src="kepenk(1.jpg" alt="Otomatik Garaj Kepenk Sistemleri">
                 <div class="gallery-title">Otomatik Garaj Kepenk Sistemleri</div>
             </div>
 
-            <!-- Sürgü Sineklik -->
+            <!-- Villa Panjur -->
             <div class="gallery-item">
-                <img src="https://images.pexels.com/photos/1366872/pexels-photo-1366872.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sürgülü Sineklik Sistemleri">
-                <div class="gallery-title">Sürgülü Sineklik Sistemleri</div>
+                <img src="Kepenkliler.jpg" alt="Villa Motorlu Panjur Sistemleri" onerror="this.src='kepenkliler.jpg'">
+                <div class="gallery-title">Villa Motorlu Panjur Sistemleri</div>
+            </div>
+
+            <!-- PVC Doğrama -->
+            <div class="gallery-item">
+                <img src="Pvc-dograma.jpg" alt="PVC Doğrama Sistemleri">
+                <div class="gallery-title">PVC Doğrama Sistemleri</div>
+            </div>
+
+            <!-- Giyotin Cam -->
+            <div class="gallery-item">
+                <img src="Giyotin.jpg" alt="Motorlu Giyotin Cam Sistemleri">
+                <div class="gallery-title">Motorlu Giyotin Cam Sistemleri</div>
             </div>
 
             <!-- Plise Sineklik -->
             <div class="gallery-item">
-                <img src="https://images.pexels.com/photos/534151/pexels-photo-534151.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Plise (Pileli) Sineklik Sistemleri">
+                <img src="plise-sineklik.jpg" alt="Plise (Pileli) Sineklik Sistemleri">
                 <div class="gallery-title">Plise (Pileli) Sineklik Sistemleri</div>
+            </div>
+
+            <!-- Sürgü Sineklik -->
+            <div class="gallery-item">
+                <img src="Surgu-sineklik.jpg" alt="Sürgülü Sineklik Sistemleri">
+                <div class="gallery-title">Sürgülü Sineklik Sistemleri</div>
             </div>
 
             <!-- Karolajlı Duşakabin -->
             <div class="gallery-item">
-                <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Siyah Karolajlı Duşakabin">
+                <img src="karolajli-dusakabin.jpg" alt="Siyah Karolajlı Duşakabin">
                 <div class="gallery-title">Siyah Karolajlı Duşakabin</div>
             </div>
 
             <!-- Oval Duşakabin -->
             <div class="gallery-item">
-                <img src="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Oval Lüks Duşakabin Sistemleri">
+                <img src="Oval-dusakabin.jpg" alt="Oval Lüks Duşakabin Sistemleri">
                 <div class="gallery-title">Oval Lüks Duşakabin Sistemleri</div>
             </div>
         </div>
     </div>
 
+    <!-- İletişim Butonları -->
     <div class="card">
         <h2>İletişim</h2>
         <p><strong>Telefon:</strong> 0545 806 91 49</p>
@@ -111,6 +246,7 @@
         </div>
     </div>
 
+    <!-- Konum & Harita -->
     <div class="card">
         <h2>Konumumuz</h2>
         <p><strong>Adres:</strong> Erzene Mahallesi 17 Sokak No: 9/B Bornova / İzmir</p>
